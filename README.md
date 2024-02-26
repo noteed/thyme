@@ -1,3 +1,11 @@
+Note: this branch adds a `nix/` directory, and `default.nix` and `shell.nix`
+files to try building this package with Nix, and make it available as a
+dependency for other projects (in particular `noteed/minicron` and
+`noteed/humming`). In the future, those should use Thyme as provided by nixpkgs
+(but it is marked as broken there, so this branch is also a step towards fixing
+that too).
+
+
 # thyme
 
 [![CI](https://github.com/haskell-github-trust/thyme/actions/workflows/haskell.yml/badge.svg)](https://github.com/haskell-github-trust/thyme/actions/workflows/haskell.yml) [![Hackage](https://img.shields.io/hackage/v/thyme.svg?logo=haskell)](http://hackage.haskell.org/package/thyme)
